@@ -55,8 +55,7 @@ jobs:
           name: java-app
           path: '${{ github.workspace }}/target/*.jar'
 
-  test:
-    -name : Prueba
+ 
   deploy:
     permissions:
       contents: none
